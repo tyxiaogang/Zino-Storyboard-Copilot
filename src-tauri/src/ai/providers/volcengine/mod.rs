@@ -89,7 +89,7 @@ impl AIProvider for VolcengineProvider {
         let client = Client::builder()
             .timeout(std::time::Duration::from_secs(120))
             .build()
-            .map_err(|e| AIError::Network(e.to_string()))?;
+            .map_err(|e| AIError::Provider(e.to_string()))?;
 
         let body = GenerateImageRequest {
             model,
@@ -107,8 +107,7 @@ impl AIProvider for VolcengineProvider {
             .header(header::AUTHORIZATION, format!("Bearer {api_key}"))
             .json(&body)
             .send()
-            .await
-            .map_err(|e| AIError::Network(format!("请求失败: {e}")))?;
+            .await?;
 
         if !response.status().is_success() {
             let status = response.status();
@@ -120,8 +119,7 @@ impl AIProvider for VolcengineProvider {
 
         let result: GenerateImageResponse = response
             .json()
-            .await
-            .map_err(|e| AIError::Json(format!("响应解析失败: {e}")))?;
+            .await?;
 
         result
             .data
