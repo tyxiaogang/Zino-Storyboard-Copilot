@@ -2,8 +2,6 @@
   <img src="./src-tauri/icons/128x128@2x.png" width="100" height="100" alt="Zino分镜助手" style="margin-bottom: -50px;">
   <h1 style="color: ##111227;">Zino分镜助手</h1>
   <h3>基于节点画布的 AI 分镜工作台，一站式完成图片生成、编辑与分镜流程</h3>
-
-  [![Bilibili](https://img.shields.io/badge/bilibili-痕继痕迹-00AEEC?logo=bilibili)](https://space.bilibili.com/39337803)
 </div>
 
 <div align="center">
@@ -18,7 +16,7 @@ Windows 用户请下载 <strong>.exe</strong> 文件，macOS 用户请下载 <st
 Windows 用户如果在启动时遇到了报错，请尝试安装 [WebView2 运行时](https://developer.microsoft.com/zh-cn/Microsoft-edge/webview2#download)
 
 ### Github 下载
-[![Download Latest Release](https://img.shields.io/github/v/release/henjicc/Zino-Storyboard-Copilot?style=for-the-badge&color=blue)](https://github.com/henjicc/Zino-Storyboard-Copilot/releases/latest)
+[![Download Latest Release](https://img.shields.io/github/v/release/tyxiaogang/Zino-Storyboard-Copilot?style=for-the-badge&color=blue)](https://github.com/tyxiaogang/Zino-Storyboard-Copilot/releases/latest)
 
 ### 网盘下载
 **夸克网盘**：[https://pan.quark.cn/s/5b6733a8fc8e](https://pan.quark.cn/s/5b6733a8fc8e)

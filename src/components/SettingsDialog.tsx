@@ -897,25 +897,9 @@ export function SettingsDialog({
                     </p>
                     <p className="text-text-dark">
                       {t('settings.aboutAuthorLabel')}:{' '}
-                      <a
-                        href="https://space.bilibili.com/39337803"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="text-accent hover:underline"
-                      >
+                      <span className="text-text-muted">
                         {t('settings.aboutAuthor')}
-                      </a>
-                    </p>
-                    <p className="text-text-dark">
-                      {t('settings.aboutRepositoryLabel')}:{' '}
-                      <a
-                        href="https://github.com/henjicc/Zino-Storyboard-Copilot"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="text-accent hover:underline break-all"
-                      >
-                        https://github.com/henjicc/Zino-Storyboard-Copilot
-                      </a>
+                      </span>
                     </p>
                   </div>
 
