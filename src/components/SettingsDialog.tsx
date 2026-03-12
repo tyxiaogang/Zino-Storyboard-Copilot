@@ -876,14 +876,9 @@ export function SettingsDialog({
                         className="h-14 w-14 rounded-lg border border-border-dark object-cover"
                       />
                       <div className="min-w-0 flex-1">
-                        <a
-                          href="https://space.bilibili.com/39337803"
-                          target="_blank"
-                          rel="noreferrer"
-                          className="text-base font-semibold text-accent hover:underline"
-                        >
+                        <p className="text-base font-semibold text-text-dark">
                           {t('settings.aboutAppName')}
-                        </a>
+                        </p>
                         <p className="mt-1 text-sm text-text-muted">
                           {t('settings.aboutIntro')}
                         </p>
